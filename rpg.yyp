@@ -223,11 +223,27 @@
             }
         },
         {
+            "Key": "a128950b-5063-4876-b4a6-b99dbd2ea6d1",
+            "Value": {
+                "id": "e7ecc223-f5ca-4a88-9a2b-25d6e83c43e5",
+                "resourcePath": "options\\amazonfire\\options_amazonfire.yy",
+                "resourceType": "GMAmazonFireOptions"
+            }
+        },
+        {
             "Key": "a782fb2d-7904-45ba-8b8b-94a54f0b4a7a",
             "Value": {
                 "id": "5df11128-15e2-4391-ac43-380d4b835c7f",
                 "resourcePath": "objects\\fondp\\fondp.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
+            "Value": {
+                "id": "dba36b2c-e9a1-43f6-8dfd-19694c7b6e3a",
+                "resourcePath": "options\\linux\\options_linux.yy",
+                "resourceType": "GMLinuxOptions"
             }
         },
         {
@@ -284,6 +300,14 @@
                 "id": "ef610f93-5fe6-41fe-a027-6f705b0e8137",
                 "resourcePath": "views\\ce26d1bb-665b-48e8-9aa7-87eb0e7e0b7d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "cefed929-ba5f-4544-ae9c-660f46af8156",
+            "Value": {
+                "id": "8137d188-cd1d-4ed4-aacd-244ae5c4175e",
+                "resourcePath": "fonts\\font_inv_desc\\font_inv_desc.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -380,6 +404,14 @@
                 "id": "71aa73df-37b8-4150-b227-7d6fd2544a4f",
                 "resourcePath": "sounds\\snd_menu_switch\\snd_menu_switch.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
+            "Value": {
+                "id": "577542e2-8621-4400-bc88-daee6c37ce26",
+                "resourcePath": "options\\mac\\options_mac.yy",
+                "resourceType": "GMMacOptions"
             }
         },
         {

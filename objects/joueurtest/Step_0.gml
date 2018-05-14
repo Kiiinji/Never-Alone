@@ -7,14 +7,14 @@
 var toucheactiver = vk_nokey;
 
 
-if keyboard_check(ord("Q")) then {
+if keyboard_check(ord("Q")) && (global.inventaire = false) then {
 	x -= 5
 	toucheactiver = true}
-if keyboard_check(ord("D")) then { x += 5
+if keyboard_check(ord("D")) && (global.inventaire = false) then { x += 5
 	toucheactiver = true}
-if keyboard_check(ord("S")) then { y += 5
+if keyboard_check(ord("S")) && (global.inventaire = false) then { y += 5
 	toucheactiver = true}
-if keyboard_check(ord("Z")) then { y -= 5
+if keyboard_check(ord("Z")) && (global.inventaire = false) then { y -= 5
 	toucheactiver = true}
 	
 
@@ -30,19 +30,19 @@ if toucheactiver = false
 }
 
 
-if keyboard_check(ord("D"))
+if keyboard_check(ord("D")) && (global.inventaire = false)
 {
 	sprite_index = sprite_testright;
 }
-else if keyboard_check(ord("Q"))
+else if keyboard_check(ord("Q")) && (global.inventaire = false)
 {
 	sprite_index = sprite_testleft;
 }
-else if keyboard_check(ord("Z"))
+else if keyboard_check(ord("Z")) && (global.inventaire = false)
 {
 	sprite_index = sprite_testup;
 }
-else if keyboard_check(ord("S"))
+else if keyboard_check(ord("S")) && (global.inventaire = false)
 {
 	sprite_index = sprite_testdown;
 }

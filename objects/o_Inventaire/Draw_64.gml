@@ -74,6 +74,18 @@ repeat(inv_slots) {
 	
 }
 
+// Descriptions d'items
+
+var iinfo_grid = ds_items_info, description = "";
+iitem = inv_grid[# 0, selected_slot];
+
+if(iitem > 0) {
+	draw_set_font(font_inv_desc);
+	description = iinfo_grid[# 0, iitem] + ".. " + iinfo_grid[# 1, iitem];
+	c = c_black;
+	draw_text_ext_color(desc_x, desc_y, description, string_height("M"), (inv_UI_width*scale) - (x_buffer*2), c,c,c,c, 1);
+}
+
 if(pickup_slot != -1) {
 	// Item
 	iitem = inv_grid[# 0, pickup_slot];

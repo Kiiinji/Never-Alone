@@ -40,6 +40,9 @@ info_y = inv_UI_y + (9 * scale);
 slots_x = inv_UI_x + (17);
 slots_y = inv_UI_y + (40 * scale);
 
+desc_x = inv_UI_x + (150 * scale);
+desc_y = inv_UI_y + (156 * scale);
+
 
 // Infos du joueur
 
@@ -63,6 +66,25 @@ enum item {
 	potato		= 2,
 	height		= 3,
 }
+
+#region Descriptions des Items
+ds_items_info = ds_grid_create(2, item.height);
+
+// Nom des items
+var z = 0, i = 0;
+ds_items_info[# z, i++] = "Rien";
+ds_items_info[# z, i++] = "Des tomates";
+ds_items_info[# z, i++] = "Des patates";
+
+
+// Descriptions des items
+var z = 1, i = 0;
+ds_items_info[# z, i++] = "Rien";
+ds_items_info[# z, i++] = "c'est pas bon xd";
+ds_items_info[# z, i++] = "c'est bon xd";
+
+#endregion
+
 
 
 var yy = 0; repeat(inv_slots) {

@@ -61,7 +61,7 @@ if(point_in_rectangle(px, py, x-r, y-r, x+r, y+r)){
 	// Détruire l'item si récupéré
 		if(picked_up){
 			instance_destroy();
-			show_debug_message("Item picked up");
+			
 		}
 }
 }
