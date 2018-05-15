@@ -28,6 +28,9 @@ switch (menu_index) {
 	game_end();
 	break;
 	
+	case 4:
+	room_goto(rm_menu)
+	
 	
 	
 }

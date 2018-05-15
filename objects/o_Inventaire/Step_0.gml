@@ -77,12 +77,17 @@ else if(ss_item != item.none){
 			}
 			
 			// Créer l'item
-			var inst = instance_create_layer(joueurtest.x, joueurtest.y, "Instances", obj_item);
+			
+			var inst = znet_entity_create("item","x", obj_player.x, "y", obj_player.y);
+			if (znet_entity_create("item","x", obj_player.x, "y", obj_player.y) = false)
+				show_debug_message("Nop");
+				
 			with(inst){
 				item_num = ss_item;
 				x_frame = item_num mod (spr_width/cell_size);
 				y_frame = item_num div (spr_width/cell_size);
 			}
+			
 		
 		show_debug_message("Dropped an item");
 	}

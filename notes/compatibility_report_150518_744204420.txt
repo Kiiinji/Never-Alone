@@ -1,0 +1,122 @@
+Conversion du script GML : ${project_dir}\scripts\znet_server_create\znet_server_create.gml
+Description convertie /// @description znet_server_create(port, max_clients, version);/// @param port
+/// @param  max_clients
+/// @param  version
+
+Conversion du script GML : ${project_dir}\scripts\znet_server_destroy\znet_server_destroy.gml
+Description convertie /// @description znet_server_destroy(server_id);/// @param server_id
+
+Conversion du script GML : ${project_dir}\scripts\znet_server_get_sockets\znet_server_get_sockets.gml
+Description convertie /// @description znet_server_get_sockets(server_id);/// @param server_id
+
+Conversion du script GML : ${project_dir}\scripts\znet_server_get_state\znet_server_get_state.gml
+Description convertie /// @description znet_server_get_state(server_id);/// @param server_id
+
+Conversion du script GML : ${project_dir}\scripts\znet_server_get_connected_socket\znet_server_get_connected_socket.gml
+Description convertie /// @description znet_server_get_connected_socket(server_id);/// @param server_id
+
+Conversion du script GML : ${project_dir}\scripts\znet_server_get_disconnected_socket\znet_server_get_disconnected_socket.gml
+Description convertie /// @description znet_server_get_disconnected_socket(server_id);/// @param server_id
+
+Conversion du script GML : ${project_dir}\scripts\znet_client_create\znet_client_create.gml
+Description convertie /// @description znet_client_create(ip, port, version);/// @param ip
+/// @param  port
+/// @param  version
+
+Conversion du script GML : ${project_dir}\scripts\znet_client_destroy\znet_client_destroy.gml
+Description convertie /// @description znet_client_destroy(client_id);/// @param client_id
+
+Conversion du script GML : ${project_dir}\scripts\znet_client_get_state\znet_client_get_state.gml
+Description convertie /// @description znet_client_get_state(client_id);/// @param client_id
+
+Conversion du script GML : ${project_dir}\scripts\znet_client_get_ping\znet_client_get_ping.gml
+Description convertie /// @description znet_client_get_ping(client_id);/// @param client_id
+
+Conversion du script GML : ${project_dir}\scripts\znet_entity_create\znet_entity_create.gml
+Description convertie /// @description znet_entity_create([entity_type], [entity_name], [entity_keys,...]);/// @param [entity_type]
+/// @param  [entity_name]
+/// @param  [entity_keys
+/// @param ...]
+
+Conversion du script GML : ${project_dir}\scripts\znet_entity_destroy\znet_entity_destroy.gml
+Description convertie /// @description znet_entity_destroy(entity_name);/// @param entity_name
+
+Conversion du script GML : ${project_dir}\scripts\znet_entity_set_keys\znet_entity_set_keys.gml
+Description convertie /// @description znet_entity_set_keys(entity_name, entity_keys,...);/// @param entity_name
+/// @param  entity_keys
+/// @param ...
+
+Conversion du script GML : ${project_dir}\scripts\znet_entity_get_key\znet_entity_get_key.gml
+Description convertie /// @description znet_entity_get_key(entity_name, entity_key);/// @param entity_name
+/// @param  entity_key
+
+Conversion du script GML : ${project_dir}\scripts\znet_entity_get_map\znet_entity_get_map.gml
+Description convertie /// @description znet_entity_get_map(entity_name);/// @param entity_name
+
+Conversion du script GML : ${project_dir}\scripts\znet_entity_get_list\znet_entity_get_list.gml
+Description convertie /// @description znet_entity_get_list(entity_type);/// @param entity_type
+
+Conversion du script GML : ${project_dir}\scripts\znet_entity_exists\znet_entity_exists.gml
+Description convertie /// @description znet_entity_exists(entity_name);/// @param entity_name
+
+Conversion du script GML : ${project_dir}\scripts\znet_entity_attach_client\znet_entity_attach_client.gml
+Description convertie /// @description znet_entity_attach_client(entity_name, client_id);/// @param entity_name
+/// @param  client_id
+
+Conversion du script GML : ${project_dir}\scripts\znet_packet_clear\znet_packet_clear.gml
+Description convertie /// @description znet_packet_clear(server_id/client_id);/// @param server_id/client_id
+
+Conversion du script GML : ${project_dir}\scripts\znet_packet_write\znet_packet_write.gml
+Description convertie /// @description znet_packet_write(server_id/client_id, type, value);/// @param server_id/client_id
+/// @param  type
+/// @param  value
+
+Conversion du script GML : ${project_dir}\scripts\znet_packet_read\znet_packet_read.gml
+Description convertie /// @description znet_packet_read(type);/// @param type
+
+Conversion du script GML : ${project_dir}\scripts\znet_packet_send_server\znet_packet_send_server.gml
+Description convertie /// @description znet_packet_send_server(client_id);/// @param client_id
+
+Conversion du script GML : ${project_dir}\scripts\znet_packet_send_client\znet_packet_send_client.gml
+Description convertie /// @description znet_packet_send_client(server_id, client_socket);/// @param server_id
+/// @param  client_socket
+
+Conversion du script GML : ${project_dir}\scripts\znet_packet_check\znet_packet_check.gml
+Description convertie /// @description znet_packet_check(server_id/client_id);/// @param server_id/client_id
+
+Conversion du script GML : ${project_dir}\scripts\znet_set_timeout\znet_set_timeout.gml
+Description convertie /// @description znet_set_timeout(time);/// @param time
+
+Conversion du script GML : ${project_dir}\scripts\__znet_server_entity_create\__znet_server_entity_create.gml
+Description convertie /// @description __znet_server_entity_create(type, name, keys);/// @param type
+/// @param  name
+/// @param  keys
+
+Conversion du script GML : ${project_dir}\scripts\__znet_server_entity_destroy\__znet_server_entity_destroy.gml
+Description convertie /// @description __znet_server_entity_destroy(name);/// @param name
+
+Conversion du script GML : ${project_dir}\scripts\__znet_server_entity_set_keys\__znet_server_entity_set_keys.gml
+Description convertie /// @description __znet_server_entity_set_keys(name, keys);/// @param name
+/// @param  keys
+
+Conversion du script GML : ${project_dir}\scripts\__znet_server_entity_attach_client\__znet_server_entity_attach_client.gml
+Description convertie /// @description __znet_server_entity_attach_client(entity_name, client_id);/// @param entity_name
+/// @param  client_id
+
+Conversion du script GML : ${project_dir}\scripts\__znet_client_entity_create\__znet_client_entity_create.gml
+Description convertie /// @description __znet_client_entity_create(type, name, keys, [map_keys]);/// @param type
+/// @param  name
+/// @param  keys
+/// @param  [map_keys]
+
+Conversion du script GML : ${project_dir}\scripts\__znet_client_entity_destroy\__znet_client_entity_destroy.gml
+Description convertie /// @description __znet_client_entity_destroy(name);/// @param name
+
+Conversion du script GML : ${project_dir}\scripts\__znet_client_entity_set_keys\__znet_client_entity_set_keys.gml
+Description convertie /// @description __znet_client_entity_set_keys(type, name, keys);/// @param type
+/// @param  name
+/// @param  keys
+
+Ajout du script de compatibilité 'instance/instance_create.gml'
+Ajout du script de compatibilité 'object/object_get_depth.gml'
+Ajout du script de compatibilité '__global_object_depths.gml'

@@ -10,6 +10,7 @@ button_h = 52;
 button[0] = "Jouer";
 button[1] = "Continuer";
 button[2] = "Language";
+button[4] = "Multijoueur";
 button[3] = "Quitter";
 buttons = array_length_1d(button);
 
